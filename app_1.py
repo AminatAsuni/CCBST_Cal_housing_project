@@ -71,7 +71,7 @@ user_input_df = pd.DataFrame(user_input,index=[0])
 user_input_sc = scaler.transform(user_input_df)
 
 #make prediction
-prediction = model.predict(user_input_sc)
+prediction = final_model.predict(user_input_sc)
 
 st.button("Predict")
 
