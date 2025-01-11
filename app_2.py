@@ -7,12 +7,10 @@ st.title("California Housing Price Prediction for XYZ Brokerage Company")
 st.write("Hello world please use cal house price prediction")
 
 #reading linear regression model through pickle file
-model_linear = pickle.load(open('notebooks\model_linear_reg.pkl','rb'))
+model_linear = pickle.load(open('notebooks/model_linear_reg.pkl','rb'))
 
 #reading linear regression model through pickle file
 model_scaler = pickle.load(open('notebooks/scaler_cal.pkl','rb'))
-
-
 
 #get user input
 st.write ("Enter the input values for prediction:")
